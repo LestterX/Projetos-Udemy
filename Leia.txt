@@ -1,0 +1,3 @@
+Este arquivo Index.htm na raiz é um atalho para abrir cada projeto
+
+Um caminho mais rápido para acessar acada projeto, sem precisar entrar de pasta em pasta

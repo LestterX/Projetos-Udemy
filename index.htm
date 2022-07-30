@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a:link,
+        a:visited,
+        a:active{
+            text-decoration: none;
+            color: #000;
+            font-weight: 900;
+        }
+        #container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+        }
+        #box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            height: auto;
+        }
+        .projeto{
+            display: block;
+            margin: 10px;
+            height: 80px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: greenyellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            border: #000 1px solid;
+        }
+        .extra{
+            background-color: yellow;
+        }
+        .projeto:hover{
+            transform: scaleX(1.1);
+            opacity: 0.7;
+            box-shadow: #000 5px 5px 5px;
+        }
+    </style>
+    <div id="container">
+        <div id="box">
+            <a href="/00Aulas/1Parallax/index.html">
+                <div class="projeto extra">
+                    <p>Parallax</p>
+                </div>
+            </a>
+            <a href="/0TecBlog/index.html">
+                <div class="projeto">
+                    <p>TecBlog</p>
+                </div>
+            </a>
+            <a href="/1Site de Noticias Cidade/index.html">
+                <div class="projeto">
+                    <p>Notícias Cidade</p>
+                </div>
+            </a>
+            <a href="/2Chale-Hotel/index.html">
+                <div class="projeto">
+                    <p>Hotel Chalé</p>
+                </div>
+            </a>
+            <a href="/3Museu-Nacional/index.html">
+                <div class="projeto">
+                    <p>Museu Nacional</p>
+                </div>
+            </a>
+            <a href="/00Aulas/0Estilizando Tabelas - Parte 2/">
+                <div class="projeto extra">
+                    <p>Estilizando Forms</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script>
+        console.log("Lestter Gabriel")
+    </script>
+</body>
+</html>
